@@ -30,6 +30,21 @@ WriteMakefile(
     'Test::More' => '0',
   },
   EXE_FILES => [ qw(dbicx-autodoc) ],
+  META_MERGE => {
+    "meta-spec" => { version => 2 },
+    dynamic_config => 0,
+    resources => {
+      repository => {
+        type => 'git',
+        url => 'git@github.com:ilmari/dbicx-autodoc.git',
+        web => 'https://github.com/ilmari/dbicx-autodoc',
+      },
+      license => [ 'http://dev.perl.org/licenses/' ],
+    },
+    no_index => {
+      directory => [qw(examples templates xt)],
+    },
+  },
 );
 
 package MY;
