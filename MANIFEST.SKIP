@@ -12,7 +12,7 @@
 \bMANIFEST\.bak
 \bMakefile$
 \bblib/
-\bMakeMaker-\d
+\bDBICx-AutoDoc-\d
 \bpm_to_blib\.ts$
 \bpm_to_blib$
 \bblibdirs\.ts$
