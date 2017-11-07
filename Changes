@@ -1,6 +1,7 @@
 Revision history for Perl extension DBICx::AutoDoc.
 
     - Don't die on coderef relationship conditions
+    - Convert from Module::Install to ExtUtils::MakeMaker
 
 0.08
     - Handle literal SQL and explicit undef default values RT#65155
