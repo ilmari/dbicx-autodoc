@@ -1,5 +1,6 @@
 Revision history for Perl extension DBICx::AutoDoc.
 
+0.09
     - Don't die on coderef relationship conditions
     - Convert from Module::Install to ExtUtils::MakeMaker
 
